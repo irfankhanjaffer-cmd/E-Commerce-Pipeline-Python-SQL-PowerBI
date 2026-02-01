@@ -76,13 +76,11 @@ The workflow integrates **Python** for preprocessing, **PostgreSQL** for analyti
 ## 📂 Project Structure
 
 ```text
-├── 📁 data
-│   └── amazon_products.csv        # Raw dataset
-├── 📁 notebooks
-│   └── data_cleaning_eda.ipynb    # Python preprocessing & EDA
-├── 📁 sql
-│   └── analysis_queries.sql       # PostgreSQL analytics & views
-├── 📁 dashboard
-│   └── product_engagement.pbix    # Power BI dashboard
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+Amazon-Product-Engagement/
+├── amazon_analysis-python.ipynb  # Python pipeline (Cleaning, ETL)
+├── amazon.csv                     # Raw dataset
+├── postgresql queries.sql         # SQL scripts & Views
+├── Dashboard.pbix                 # Power BI Interactive Report
+├── Dashboard_Screenshot.png        # Visual preview
+├── Project_Report.pdf             # Detailed documentation
+└── README.md                      # This file
